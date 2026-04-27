@@ -23,5 +23,7 @@ management:
       application: ${spring.application.name}
 
 logging:
+  file:
+    name: "${EXTERNAL_LOG_FILE:C:/Eslam/self_projects/new-bank/external-logs/external.log}"
   pattern:
     level: "%5p [${spring.application.name},%X{trace_id},%X{span_id}]"

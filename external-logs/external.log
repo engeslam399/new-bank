@@ -1,0 +1,601 @@
+2026-04-27T16:04:26.192+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:26.194+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:27.185+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:27.186+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:28.173+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:28.174+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:28.731+03:00 DEBUG [gatewayserver,,] 4712 --- [gatewayserver] [parallel-3] o.s.s.w.s.u.m.OrServerWebExchangeMatcher : Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/logout', method=POST}
+2026-04-27T16:04:28.732+03:00 DEBUG [gatewayserver,,] 4712 --- [gatewayserver] [parallel-3] athPatternParserServerWebExchangeMatcher : Request 'POST /eazybank/accounts/api/create' doesn't match 'POST /logout'
+2026-04-27T16:04:28.732+03:00 DEBUG [gatewayserver,,] 4712 --- [gatewayserver] [parallel-3] o.s.s.w.s.u.m.OrServerWebExchangeMatcher : No matches found
+2026-04-27T16:04:28.734+03:00 DEBUG [gatewayserver,,] 4712 --- [gatewayserver] [parallel-3] o.s.s.w.s.u.m.OrServerWebExchangeMatcher : Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/**', method=GET}
+2026-04-27T16:04:28.735+03:00 DEBUG [gatewayserver,,] 4712 --- [gatewayserver] [parallel-3] athPatternParserServerWebExchangeMatcher : Request 'POST /eazybank/accounts/api/create' doesn't match 'GET /**'
+2026-04-27T16:04:28.736+03:00 DEBUG [gatewayserver,,] 4712 --- [gatewayserver] [parallel-3] o.s.s.w.s.u.m.OrServerWebExchangeMatcher : No matches found
+2026-04-27T16:04:28.737+03:00 DEBUG [gatewayserver,,] 4712 --- [gatewayserver] [parallel-3] o.s.s.w.s.u.m.OrServerWebExchangeMatcher : Trying to match using PathMatcherServerWebExchangeMatcher{pattern='/eazybank/accounts/**', method=null}
+2026-04-27T16:04:28.738+03:00 DEBUG [gatewayserver,,] 4712 --- [gatewayserver] [parallel-3] athPatternParserServerWebExchangeMatcher : Checking match of request : '/eazybank/accounts/api/create'; against '/eazybank/accounts/**'
+2026-04-27T16:04:28.739+03:00 DEBUG [gatewayserver,,] 4712 --- [gatewayserver] [parallel-3] o.s.s.w.s.u.m.OrServerWebExchangeMatcher : matched
+2026-04-27T16:04:28.741+03:00 DEBUG [gatewayserver,,] 4712 --- [gatewayserver] [parallel-3] a.DelegatingReactiveAuthorizationManager : Checking authorization on '/eazybank/accounts/api/create' using org.springframework.security.authorization.AuthorityReactiveAuthorizationManager@7e50f135
+2026-04-27T16:04:28.743+03:00 DEBUG [gatewayserver,,] 4712 --- [gatewayserver] [parallel-3] o.s.s.w.s.a.AuthorizationWebFilter       : Authorization failed: Access Denied
+2026-04-27T16:04:29.149+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:29.152+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:30.218+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:30.218+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:31.236+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:31.236+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:32.340+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:32.340+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:33.214+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:33.214+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:34.318+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:34.318+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:35.417+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:35.417+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:36.404+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:36.404+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:37.509+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:37.509+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:38.388+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:38.388+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:39.348+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:39.348+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:40.200+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:40.200+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:41.088+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:41.088+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:42.158+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:42.158+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:43.160+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:43.160+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:44.157+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:44.157+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:45.032+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:45.032+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:46.041+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:46.041+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:46.942+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:46.942+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:47.922+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:47.922+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:48.095+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-2] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: Timed out waiting for a node assignment. Call: fetchMetadata
+
+2026-04-27T16:04:48.834+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:48.835+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:49.760+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:49.763+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:50.771+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:50.771+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:51.677+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:51.677+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:52.683+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:52.683+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:53.691+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:53.691+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:54.595+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:54.595+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:55.604+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:55.604+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:56.611+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:56.611+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:57.619+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:57.619+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:58.624+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:58.624+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:04:59.631+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:04:59.632+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:00.537+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:05:00.537+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:01.542+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:05:01.542+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:02.549+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:05:02.550+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:03.556+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:05:03.556+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:04.560+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:05:04.560+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:05.464+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:05:05.464+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:06.471+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:05:06.471+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:07.478+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:05:07.478+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:08.428+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:05:08.428+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:09.278+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:05:09.279+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:10.363+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:05:10.363+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:11.230+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:05:11.230+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:12.290+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:05:12.290+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:13.354+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:05:13.356+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:14.339+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:05:14.339+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:15.339+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:05:15.339+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:16.102+03:00  INFO [eurekaserver,,] 28832 --- [eurekaserver] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2026-04-27T16:05:16.351+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:05:16.351+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:17.425+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Node -1 disconnected.
+2026-04-27T16:05:17.425+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-2] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:18.109+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-2 unregistered
+2026-04-27T16:05:18.111+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-2] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited. Call: fetchMetadata
+
+2026-04-27T16:05:18.114+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] o.a.k.clients.admin.KafkaAdminClient     : [AdminClient clientId=adminclient-2] Timed out 1 remaining operation(s) during close.
+2026-04-27T16:05:18.134+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-04-27T16:05:18.135+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-04-27T16:05:18.136+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-2] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-04-27T16:05:18.136+03:00 ERROR [accounts,,] 25692 --- [accounts] [scheduling-1] o.s.cloud.stream.binding.BindingService  : Failed to create consumer binding; retrying in 30 seconds
+
+org.springframework.cloud.stream.provisioning.ProvisioningException: Provisioning exception encountered for communication-sent
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:418) ~[spring-cloud-stream-binder-kafka-core-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.doProvisionConsumerDestination(KafkaTopicProvisioner.java:287) ~[spring-cloud-stream-binder-kafka-core-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionConsumerDestination(KafkaTopicProvisioner.java:252) ~[spring-cloud-stream-binder-kafka-core-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionConsumerDestination(KafkaTopicProvisioner.java:97) ~[spring-cloud-stream-binder-kafka-core-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindConsumer(AbstractMessageChannelBinder.java:529) ~[spring-cloud-stream-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindConsumer(AbstractMessageChannelBinder.java:103) ~[spring-cloud-stream-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.stream.binder.AbstractBinder.bindConsumer(AbstractBinder.java:144) ~[spring-cloud-stream-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.stream.binding.BindingService.lambda$rescheduleConsumerBinding$1(BindingService.java:217) ~[spring-cloud-stream-4.2.0.jar:4.2.0]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.1.jar:6.2.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.util.concurrent.TimeoutException: null
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095) ~[na:na]
+	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:180) ~[kafka-clients-3.8.1.jar:na]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicAndPartitions(KafkaTopicProvisioner.java:454) ~[spring-cloud-stream-binder-kafka-core-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicIfNecessary(KafkaTopicProvisioner.java:428) ~[spring-cloud-stream-binder-kafka-core-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:405) ~[spring-cloud-stream-binder-kafka-core-4.2.0.jar:4.2.0]
+	... 15 common frames omitted
+
+2026-04-27T16:05:48.152+03:00  INFO [accounts,,] 25692 --- [accounts] [scheduling-1] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2026-04-27T16:05:48.188+03:00  INFO [accounts,,] 25692 --- [accounts] [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2026-04-27T16:05:48.190+03:00  INFO [accounts,,] 25692 --- [accounts] [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2026-04-27T16:05:48.190+03:00  INFO [accounts,,] 25692 --- [accounts] [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1777295148188
+2026-04-27T16:05:48.205+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:05:48.205+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:48.324+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:05:48.324+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:48.429+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:05:48.429+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:48.732+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:05:48.732+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:49.269+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:05:49.270+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:50.111+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:05:50.111+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:51.195+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:05:51.195+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:52.049+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:05:52.049+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:53.055+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:05:53.055+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:54.023+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:05:54.023+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:55.122+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:05:55.122+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:56.169+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:05:56.169+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:57.221+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:05:57.221+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:58.309+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:05:58.309+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:05:59.269+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:05:59.269+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:00.246+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:00.246+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:01.353+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:01.353+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:02.467+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:02.467+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:03.552+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:03.552+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:04.435+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:04.435+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:05.498+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:05.502+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:06.501+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:06.501+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:07.548+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:07.548+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:08.625+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:08.625+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:09.725+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:09.725+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:10.597+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:10.597+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:11.604+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:11.604+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:12.480+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:12.480+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:13.573+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:13.574+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:14.428+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:14.430+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:15.500+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:15.500+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:16.114+03:00  INFO [eurekaserver,,] 28832 --- [eurekaserver] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2026-04-27T16:06:16.345+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:16.345+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:17.310+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:17.310+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:18.197+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-3] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: Timed out waiting for a node assignment. Call: fetchMetadata
+
+2026-04-27T16:06:18.404+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:18.404+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:19.376+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:19.376+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:20.241+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:20.241+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:21.309+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:21.309+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:22.153+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:22.153+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:23.242+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:23.242+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:24.115+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:24.115+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:25.122+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:25.122+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:26.123+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:26.123+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:27.129+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:27.129+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:28.139+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:28.139+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:29.140+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:29.140+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:30.253+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:30.254+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:31.285+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:31.285+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:32.258+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:32.258+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:33.339+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:33.339+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:34.431+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:34.431+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:35.426+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:35.427+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:36.392+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:36.392+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:37.247+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:37.247+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:38.354+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:38.354+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:39.333+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:39.334+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:40.224+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:40.224+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:41.221+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:41.221+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:42.111+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:42.111+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:43.091+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:43.091+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:44.182+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:44.182+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:45.288+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:45.288+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:46.380+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:46.380+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:47.487+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Node -1 disconnected.
+2026-04-27T16:06:47.488+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-3] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:06:48.199+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-3] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: Timed out waiting for a node assignment. Call: fetchMetadata
+
+2026-04-27T16:06:48.311+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-3 unregistered
+2026-04-27T16:06:48.311+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-3] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited. Call: fetchMetadata
+
+2026-04-27T16:06:48.313+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] o.a.k.clients.admin.KafkaAdminClient     : [AdminClient clientId=adminclient-3] Timed out 1 remaining operation(s) during close.
+2026-04-27T16:06:48.328+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] o.apache.kafka.common.metrics.Metrics    : Metrics scheduler closed
+2026-04-27T16:06:48.330+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] o.apache.kafka.common.metrics.Metrics    : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2026-04-27T16:06:48.331+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-3] o.apache.kafka.common.metrics.Metrics    : Metrics reporters closed
+2026-04-27T16:06:48.336+03:00 ERROR [accounts,,] 25692 --- [accounts] [scheduling-1] o.s.cloud.stream.binding.BindingService  : Failed to create consumer binding; retrying in 30 seconds
+
+org.springframework.cloud.stream.provisioning.ProvisioningException: Provisioning exception encountered for communication-sent
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:418) ~[spring-cloud-stream-binder-kafka-core-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.doProvisionConsumerDestination(KafkaTopicProvisioner.java:287) ~[spring-cloud-stream-binder-kafka-core-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionConsumerDestination(KafkaTopicProvisioner.java:252) ~[spring-cloud-stream-binder-kafka-core-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionConsumerDestination(KafkaTopicProvisioner.java:97) ~[spring-cloud-stream-binder-kafka-core-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindConsumer(AbstractMessageChannelBinder.java:529) ~[spring-cloud-stream-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindConsumer(AbstractMessageChannelBinder.java:103) ~[spring-cloud-stream-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.stream.binder.AbstractBinder.bindConsumer(AbstractBinder.java:144) ~[spring-cloud-stream-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.stream.binding.BindingService.lambda$rescheduleConsumerBinding$1(BindingService.java:217) ~[spring-cloud-stream-4.2.0.jar:4.2.0]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.1.jar:6.2.1]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.util.concurrent.TimeoutException: null
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960) ~[na:na]
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095) ~[na:na]
+	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:180) ~[kafka-clients-3.8.1.jar:na]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicAndPartitions(KafkaTopicProvisioner.java:454) ~[spring-cloud-stream-binder-kafka-core-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicIfNecessary(KafkaTopicProvisioner.java:428) ~[spring-cloud-stream-binder-kafka-core-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:405) ~[spring-cloud-stream-binder-kafka-core-4.2.0.jar:4.2.0]
+	... 15 common frames omitted
+
+2026-04-27T16:07:16.130+03:00  INFO [eurekaserver,,] 28832 --- [eurekaserver] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 16ms
+2026-04-27T16:07:18.368+03:00  INFO [accounts,,] 25692 --- [accounts] [scheduling-1] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.controllers = []
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	enable.metrics.push = true
+	metadata.max.age.ms = 300000
+	metadata.recovery.strategy = none
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.max.ms = 1000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2026-04-27T16:07:18.373+03:00  INFO [accounts,,] 25692 --- [accounts] [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.8.1
+2026-04-27T16:07:18.373+03:00  INFO [accounts,,] 25692 --- [accounts] [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 70d6ff42debf7e17
+2026-04-27T16:07:18.373+03:00  INFO [accounts,,] 25692 --- [accounts] [scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1777295238373
+2026-04-27T16:07:18.375+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:18.375+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:18.484+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:18.484+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:18.701+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:18.701+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:18.933+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:18.933+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:19.368+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:19.368+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:20.105+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:20.105+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:21.190+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:21.190+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:22.298+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:22.298+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:23.388+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:23.388+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:24.390+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:24.390+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:25.348+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:25.348+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:26.213+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:26.213+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:27.083+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:27.083+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:28.164+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:28.164+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:29.019+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:29.019+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:30.100+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:30.100+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:31.166+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:31.167+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:32.133+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:32.133+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:33.090+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:33.090+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:34.185+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:34.185+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:35.168+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:35.173+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:36.172+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:36.174+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:37.277+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:37.277+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:38.266+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:38.266+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:39.352+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:39.352+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:40.336+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:40.336+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:41.150+03:00  INFO [loans,,] 24924 --- [loans] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-04-27T16:07:41.319+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:41.319+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:42.222+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:42.222+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:43.199+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:43.201+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:44.001+03:00  INFO [cards,,] 25604 --- [cards] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-04-27T16:07:44.066+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:44.066+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:45.160+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:45.160+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:46.057+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:46.057+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:46.842+03:00  INFO [accounts,,] 25692 --- [accounts] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-04-27T16:07:46.952+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:46.952+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:48.052+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:48.052+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:48.399+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-4] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: Timed out waiting for a node assignment. Call: fetchMetadata
+
+2026-04-27T16:07:49.004+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:49.004+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:50.009+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:50.009+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:51.017+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:51.017+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:52.023+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:52.024+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:52.943+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:52.943+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:53.949+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:53.950+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:54.955+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:54.955+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:55.960+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:55.960+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:56.967+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:56.967+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:57.875+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:57.875+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:58.880+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:58.880+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:07:59.888+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:07:59.889+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:08:00.903+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:08:00.903+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:08:01.935+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:08:01.935+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:08:02.856+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:08:02.857+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:08:03.864+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:08:03.864+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:08:04.874+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:08:04.874+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:08:05.837+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:08:05.837+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
+2026-04-27T16:08:06.860+03:00  INFO [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Node -1 disconnected.
+2026-04-27T16:08:06.867+03:00  WARN [accounts,,] 25692 --- [accounts] [kafka-admin-client-thread | adminclient-4] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-4] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Node may not be available.
