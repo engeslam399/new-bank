@@ -1,0 +1,698 @@
+﻿{
+  "info": {
+    "_postman_id": "cbef6dd5-7df9-4dbe-b7c3-322a9ac4b566",
+    "name": "New Bank API Gateway (localhost)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Accounts via Gateway",
+      "item": [
+        {
+          "name": "Create Account",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer paste-your-jwt-here"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Eazy Bytes\",\n  \"email\": \"tutor@eazybytes.com\",\n  \"mobileNumber\": \"4354437687\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8072/eazybank/accounts/api/create",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "accounts",
+                "api",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Fetch Account",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8072/eazybank/accounts/api/fetch?mobileNumber=4354437687",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "accounts",
+                "api",
+                "fetch"
+              ],
+              "query": [
+                {
+                  "key": "mobileNumber",
+                  "value": "4354437687"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update Account",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer paste-your-jwt-here"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Eazy Bytes\",\n  \"email\": \"tutor@eazybytes.com\",\n  \"mobileNumber\": \"4354437687\",\n  \"accountsDto\": {\n    \"accountNumber\": 1234567890,\n    \"accountType\": \"Savings\",\n    \"branchAddress\": \"123 NewYork\"\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8072/eazybank/accounts/api/update",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "accounts",
+                "api",
+                "update"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Account",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer paste-your-jwt-here"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:8072/eazybank/accounts/api/delete?mobileNumber=4354437687",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "accounts",
+                "api",
+                "delete"
+              ],
+              "query": [
+                {
+                  "key": "mobileNumber",
+                  "value": "4354437687"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Fetch Customer Details",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "eazybank-correlation-id",
+                "value": "corr-12345"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:8072/eazybank/accounts/api/fetchCustomerDetails?mobileNumber=4354437687",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "accounts",
+                "api",
+                "fetchCustomerDetails"
+              ],
+              "query": [
+                {
+                  "key": "mobileNumber",
+                  "value": "4354437687"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Accounts Build Info",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8072/eazybank/accounts/api/build-info",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "accounts",
+                "api",
+                "build-info"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Accounts Java Version",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8072/eazybank/accounts/api/java-version",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "accounts",
+                "api",
+                "java-version"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Accounts Contact Info",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8072/eazybank/accounts/api/contact-info",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "accounts",
+                "api",
+                "contact-info"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Cards via Gateway",
+      "item": [
+        {
+          "name": "Create Card",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer paste-your-jwt-here"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:8072/eazybank/cards/api/create?mobileNumber=4354437687",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "cards",
+                "api",
+                "create"
+              ],
+              "query": [
+                {
+                  "key": "mobileNumber",
+                  "value": "4354437687"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Fetch Card",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "eazybank-correlation-id",
+                "value": "corr-12345"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:8072/eazybank/cards/api/fetch?mobileNumber=4354437687",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "cards",
+                "api",
+                "fetch"
+              ],
+              "query": [
+                {
+                  "key": "mobileNumber",
+                  "value": "4354437687"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update Card",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer paste-your-jwt-here"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"mobileNumber\": \"4354437687\",\n  \"cardNumber\": \"100646930341\",\n  \"cardType\": \"Credit Card\",\n  \"totalLimit\": 100000,\n  \"amountUsed\": 1000,\n  \"availableAmount\": 99000\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8072/eazybank/cards/api/update",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "cards",
+                "api",
+                "update"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Card",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer paste-your-jwt-here"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:8072/eazybank/cards/api/delete?mobileNumber=4354437687",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "cards",
+                "api",
+                "delete"
+              ],
+              "query": [
+                {
+                  "key": "mobileNumber",
+                  "value": "4354437687"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Cards Build Info",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8072/eazybank/cards/api/build-info",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "cards",
+                "api",
+                "build-info"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Cards Java Version",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8072/eazybank/cards/api/java-version",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "cards",
+                "api",
+                "java-version"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Cards Contact Info",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8072/eazybank/cards/api/contact-info",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "cards",
+                "api",
+                "contact-info"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Loans via Gateway",
+      "item": [
+        {
+          "name": "Create Loan",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer paste-your-jwt-here"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:8072/eazybank/loans/api/create?mobileNumber=4354437687",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "loans",
+                "api",
+                "create"
+              ],
+              "query": [
+                {
+                  "key": "mobileNumber",
+                  "value": "4354437687"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Fetch Loan",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "eazybank-correlation-id",
+                "value": "corr-12345"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:8072/eazybank/loans/api/fetch?mobileNumber=4354437687",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "loans",
+                "api",
+                "fetch"
+              ],
+              "query": [
+                {
+                  "key": "mobileNumber",
+                  "value": "4354437687"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update Loan",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "Bearer paste-your-jwt-here"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"mobileNumber\": \"4354437687\",\n  \"loanNumber\": \"548732457654\",\n  \"loanType\": \"Home Loan\",\n  \"totalLoan\": 100000,\n  \"amountPaid\": 1000,\n  \"outstandingAmount\": 99000\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8072/eazybank/loans/api/update",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "loans",
+                "api",
+                "update"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Loan",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer paste-your-jwt-here"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:8072/eazybank/loans/api/delete?mobileNumber=4354437687",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "loans",
+                "api",
+                "delete"
+              ],
+              "query": [
+                {
+                  "key": "mobileNumber",
+                  "value": "4354437687"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Loans Build Info",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8072/eazybank/loans/api/build-info",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "loans",
+                "api",
+                "build-info"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Loans Java Version",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8072/eazybank/loans/api/java-version",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "loans",
+                "api",
+                "java-version"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Loans Contact Info",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8072/eazybank/loans/api/contact-info",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "eazybank",
+                "loans",
+                "api",
+                "contact-info"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Gateway Fallback",
+      "item": [
+        {
+          "name": "Contact Support",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8072/contactSupport",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8072",
+              "path": [
+                "contactSupport"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
