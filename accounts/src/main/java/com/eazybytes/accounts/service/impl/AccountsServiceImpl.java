@@ -52,9 +52,20 @@ public class AccountsServiceImpl  implements IAccountsService {
     private void sendCommunication(Accounts account, Customer customer) {
         var accountsMsgDto = new AccountsMsgDto(account.getAccountNumber(), customer.getName(),
                 customer.getEmail(), customer.getMobileNumber());
-        log.info("Sending Communication request for the details: {}", accountsMsgDto);
-        var result = streamBridge.send("sendCommunication-out-0", accountsMsgDto);
-        log.info("Is the Communication request successfully triggered ? : {}", result);
+        try {
+            log.info("Sending Communication request for the details: {}", accountsMsgDto);
+            var result = streamBridge.send("sendCommunication-out-0", accountsMsgDto);
+            if (!result) {
+                log.warn("Communication request was not accepted by the message channel for accountNumber={}",
+                        account.getAccountNumber());
+            } else {
+                log.info("Communication request successfully triggered for accountNumber={}",
+                        account.getAccountNumber());
+            }
+        } catch (Exception exception) {
+            log.warn("Communication publish failed for accountNumber={}. Account creation will continue.",
+                    account.getAccountNumber(), exception);
+        }
     }
 
     /**
